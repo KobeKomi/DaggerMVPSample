@@ -1,11 +1,11 @@
-package com.komi.dragger.presenter;
+package com.komi.dagger.presenter;
 
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.komi.dragger.model.IModel;
-import com.komi.dragger.model.Model;
-import com.komi.dragger.ui.IView;
+import com.komi.dagger.model.IModel;
+import com.komi.dagger.model.Model;
+import com.komi.dagger.ui.IView;
 
 import java.util.Random;
 
@@ -18,6 +18,7 @@ public class PresenterA implements IPresenter {
     public PresenterA(){
         model = new Model();
     }
+
 
     @Override
     public void onCreate(IView view) {

@@ -1,9 +1,9 @@
-package com.komi.dragger;
+package com.komi.dagger;
 
 import android.app.Application;
 
-import com.komi.dragger.component.DaggerPresenterComponent;
-import com.komi.dragger.component.PresenterComponent;
+import com.komi.dagger.component.DaggerPresenterComponent;
+import com.komi.dagger.component.PresenterComponent;
 
 
 public class MyApplication extends Application {

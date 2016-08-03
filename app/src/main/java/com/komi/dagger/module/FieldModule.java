@@ -1,4 +1,4 @@
-package com.komi.dragger.module;
+package com.komi.dagger.module;
 
 import javax.inject.Named;
 

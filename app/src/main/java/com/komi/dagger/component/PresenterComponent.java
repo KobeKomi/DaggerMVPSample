@@ -1,8 +1,8 @@
-package com.komi.dragger.component;
+package com.komi.dagger.component;
 
-import com.komi.dragger.module.FieldModule;
-import com.komi.dragger.module.PresenterModule;
-import com.komi.dragger.ui.MainActivity;
+import com.komi.dagger.module.FieldModule;
+import com.komi.dagger.module.PresenterModule;
+import com.komi.dagger.ui.MainActivity;
 
 import javax.inject.Singleton;
 
@@ -33,4 +33,5 @@ public interface PresenterComponent {
      *                  中，方法就不会被调用。
      */
     void inject(MainActivity activity);
+
 }

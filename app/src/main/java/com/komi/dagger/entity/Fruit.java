@@ -1,4 +1,4 @@
-package com.komi.dragger.entity;
+package com.komi.dagger.entity;
 
 
 public class Fruit {

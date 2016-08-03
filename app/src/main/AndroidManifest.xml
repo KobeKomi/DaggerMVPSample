@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.komi.dragger">
+    package="com.komi.dagger">
 
     <application
         android:allowBackup="true"

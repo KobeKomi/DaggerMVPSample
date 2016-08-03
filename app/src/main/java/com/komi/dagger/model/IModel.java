@@ -1,4 +1,4 @@
-package com.komi.dragger.model;
+package com.komi.dagger.model;
 
 public interface IModel {
 

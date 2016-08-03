@@ -1,4 +1,4 @@
-package com.komi.dragger;
+package com.komi.dagger;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

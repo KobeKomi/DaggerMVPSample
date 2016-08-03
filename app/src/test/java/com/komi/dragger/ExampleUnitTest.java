@@ -1,4 +1,4 @@
-package com.komi.dragger;
+package com.komi.dagger;
 
 import org.junit.Test;
 

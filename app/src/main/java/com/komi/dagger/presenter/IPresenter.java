@@ -1,7 +1,7 @@
-package com.komi.dragger.presenter;
+package com.komi.dagger.presenter;
 
 
-import com.komi.dragger.ui.IView;
+import com.komi.dagger.ui.IView;
 
 public interface IPresenter {
 

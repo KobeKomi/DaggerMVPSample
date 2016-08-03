@@ -1,8 +1,7 @@
-package com.komi.dragger.entity;
+package com.komi.dagger.entity;
 
 
-
-public class Apple extends Fruit{
+public class Apple extends Fruit {
 
     public Apple(String color, String name){
         this.color = color;

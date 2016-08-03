@@ -1,13 +1,13 @@
-package com.komi.dragger.module;
+package com.komi.dagger.module;
 
 
-import com.komi.dragger.entity.Apple;
-import com.komi.dragger.entity.AppleInfo;
-import com.komi.dragger.entity.Banana;
-import com.komi.dragger.entity.Fruit;
-import com.komi.dragger.entity.Orange;
-import com.komi.dragger.presenter.IPresenter;
-import com.komi.dragger.presenter.PresenterA;
+import com.komi.dagger.entity.Apple;
+import com.komi.dagger.entity.AppleInfo;
+import com.komi.dagger.entity.Banana;
+import com.komi.dagger.entity.Fruit;
+import com.komi.dagger.entity.Orange;
+import com.komi.dagger.presenter.IPresenter;
+import com.komi.dagger.presenter.PresenterA;
 
 import javax.inject.Named;
 import javax.inject.Singleton;

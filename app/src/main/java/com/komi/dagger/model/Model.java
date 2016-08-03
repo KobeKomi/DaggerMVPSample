@@ -1,10 +1,13 @@
-package com.komi.dragger.model;
+package com.komi.dagger.model;
 
 import android.os.SystemClock;
 import android.util.Log;
 
 
 public class Model implements IModel {
+
+
+    public long sleepTime;
 
 
     @Override

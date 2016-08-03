@@ -1,4 +1,4 @@
-package com.komi.dragger.ui;
+package com.komi.dagger.ui;
 
 /**
  * view的根接口，所有的view都要实现这个接口，定义一些通用的数据操作

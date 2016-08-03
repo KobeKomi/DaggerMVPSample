@@ -1,4 +1,4 @@
-package com.komi.dragger.ui;
+package com.komi.dagger.ui;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -8,12 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.komi.dragger.R;
-import com.komi.dragger.component.DaggerPresenterComponent;
-import com.komi.dragger.entity.Apple;
-import com.komi.dragger.entity.Fruit;
-import com.komi.dragger.presenter.IPresenter;
-import com.komi.dragger.presenter.PresenterA;
+import com.komi.dagger.R;
+import com.komi.dagger.component.DaggerPresenterComponent;
+import com.komi.dagger.entity.Apple;
+import com.komi.dagger.entity.Fruit;
+import com.komi.dagger.presenter.IPresenter;
+import com.komi.dagger.presenter.PresenterA;
 
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -90,13 +90,11 @@ public class MainActivity extends AppCompatActivity implements IView{
         tv_content = (TextView) findViewById(R.id.tv_content);
         btn = (Button) findViewById(R.id.btn);
 
-
-        //AppleInfo info=new AppleInfo();
-        //mHfsApple=new Apple(info);
-        //presenter = new PresenterA(this);    // 1.创建presenter并初始化
-                                            // 若未使用dagger依赖注入，那么view和presenter层之间仍然有较大耦合，
-                                            // 修改presenter的话，view层也会变动
-                                            // 而dagger的使用，可以极大的降低这种耦合。
+        // 1.创建presenter并初始化
+        // 若未使用dagger依赖注入，那么view和presenter层之间仍然有较大耦合，
+        // 修改presenter的话，view层也会变动
+        // 而dagger的使用，可以极大的降低这种耦合。
+        //presenter = new PresenterA(this);
 
         presenter.onCreate(this);
 
